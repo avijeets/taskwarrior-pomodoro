@@ -4,6 +4,15 @@
 
 A simple application allowing you to use Pomodoro techniques with Taskwarrior on OSX.
 
+## Why 52?
+
+> "25 minutes of work is just not enough. By the time you are really in the thick of something, you have to stop? Plus, nothing can really be accomplished or replenished by 5 minutes of rest. That’s just enough to get to the bathroom and back. It made more sense to me to assimilate tasks into a longer work time than to think of tasks in increments of work time."
+
+Read more about the 52:17 method experiment [here](https://medium.com/@tristadedmon/my-52-17-method-experiment-8d2769fb946d#.8hf6jtidw).
+
+Simply put, the Pomodoro Technique has the right idea but isn't the sweet spot for producivity. 52 minutes of producivity and 17 minutes of rest leave with enough time within each pool to actually finish a fruitful amount of work while still having a downtime to still do something fun.
+
+
 ## Installation
 
 You can [download the latest release here](http://coddingtonbear-public.s3.amazonaws.com/github/taskwarrior-pomodoro/releases/taskwarrior-pomodoro-1.5.0.dmg), and install it by dragging the application into your Applications directory.

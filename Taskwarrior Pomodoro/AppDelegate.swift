@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     var activeTimer: NSTimer? = nil
     var activeTimerEnds: NSDate? = nil
     var activeMenuItem: NSMenuItem? = nil
-    var pomodoroDuration: Double = 60 * 25
+    var pomodoroDuration: Double = 60 * 52
     var configuration: [String: String]? = nil
     let menu = NSMenu();
     var activeCountdownTimer: NSTimer? = nil
@@ -707,8 +707,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     func updateTaskTimer() {
         let date = NSDate()
         
-        let minutesFrom = activeTimerEnds?.minutesFrom(date) ?? 25
-        let secondsFrom = (activeTimerEnds?.secondsFrom(date) ?? 1500) - minutesFrom * 60
+        let minutesFrom = activeTimerEnds?.minutesFrom(date) ?? 52
+        let secondsFrom = (activeTimerEnds?.secondsFrom(date) ?? 3120) - minutesFrom * 60
         
         getStopTaskMenuItem().title = String(format: kStopTitleFormat, minutesFrom, secondsFrom)
     }
